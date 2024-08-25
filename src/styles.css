@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+.table-responsive {
+    margin-top: 20px;
+
+  }
+  body{
+    background:url('assets/image/Tech.jpg') no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover; 
+   }
+  

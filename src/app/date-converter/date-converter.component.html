@@ -1,0 +1,51 @@
+<!-- <div class="converter-container">
+    <h3>من الميلادي إلى الهجري</h3>
+    <div class="date-inputs">
+      <div>
+        <label for="day">اليوم</label>
+        <input type="number" id="day" [(ngModel)]="gregorianDate.day" />
+      </div>
+      <div>
+        <label for="month">الشهر</label>
+        <input type="number" id="month" [(ngModel)]="gregorianDate.month" />
+      </div>
+      <div>
+        <label for="year">السنة</label>
+        <input type="number" id="year" [(ngModel)]="gregorianDate.year" />
+      </div>
+    </div>
+    <button (click)="convertDate()">تحويل</button>
+    <div class="result" >
+        @if(hijriDate)
+        {<p>التاريخ الهجري: {{ hijriDate }}</p>}
+    </div>
+  </div>
+ -->
+
+
+ <div class="converter-container">
+  <h3>من الميلادي إلى الهجري</h3>
+  <div class="date-inputs">
+    <div>
+      <label for="day">اليوم</label>
+      <input type="number" id="day" [(ngModel)]="gregorianDate.day" />
+    </div>
+    <div>
+      <label for="month">الشهر</label>
+      <input type="number" id="month" [(ngModel)]="gregorianDate.month" />
+    </div>
+    <div>
+      <label for="year">السنة</label>
+      <input type="number" id="year" [(ngModel)]="gregorianDate.year" />
+    </div>
+  </div>
+  <button (click)="convertDate()">تحويل</button>
+  <div class="result" >
+    @if(hijriDate)
+        {
+        <p>التاريخ الهجري: {{ hijriDate }}</p>
+        <p>اليوم الهجري: {{ hijriDay }}</p>
+         }
+
+  </div>
+</div>

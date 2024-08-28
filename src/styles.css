@@ -4,11 +4,10 @@
 
   }
   body{
-    background:url('assets/image/Tech.jpg') no-repeat; 
+    background-color: blueviolet;
     display: flex;
     justify-content: center;
     align-items:center ;
-    min-height: 100vh;
     background-position: center;
     background-size: cover; 
    }
